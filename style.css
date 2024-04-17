@@ -82,3 +82,17 @@ input[type="submit"] {
 .cookie-popup button.btn-secondary:hover {
     background-color: #FF9383;
 }
+
+.section {
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #000;
+    background-color: #f2f2f2;
+}
+  
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 70px;
+    margin: 45px;
+}
