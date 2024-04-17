@@ -34,3 +34,51 @@ input[type="submit"] {
     margin-top: 20px;
     font-size: 18px;
 }
+
+.cookie-popup {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: none;
+    border-radius: 5px;
+    max-width: 300px;
+}
+  
+.cookie-popup.show {
+    display: block;
+}
+  
+.cookie-popup-content {
+    margin-bottom: 10px;
+}
+  
+.cookie-popup p {
+    margin: 10px;
+}
+  
+.cookie-popup button {
+    color: #fff;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+  
+.cookie-popup button.btn-primary {
+    background-color: #58D77C;
+    border-color: #58D77C;
+}
+  
+.cookie-popup button.btn-primary:hover {
+    background-color: #68F684;
+}
+  
+.cookie-popup button.btn-secondary {
+    background-color: #EE1C43;
+    border-color: #EE1C43;
+}
+  
+.cookie-popup button.btn-secondary:hover {
+    background-color: #FF9383;
+}
