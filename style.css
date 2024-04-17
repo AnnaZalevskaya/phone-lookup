@@ -34,3 +34,17 @@ input[type="submit"] {
     margin-top: 20px;
     font-size: 18px;
 }
+
+.cookie-popup {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: none;
+}
+  
+.cookie-popup.show {
+    display: block;
+}
