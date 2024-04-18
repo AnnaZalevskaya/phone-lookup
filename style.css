@@ -83,16 +83,68 @@ input[type="submit"] {
     background-color: #FF9383;
 }
 
-.section {
-    width: 100%;
-    max-width: 100%;
-    border: 1px solid #000;
-    background-color: #f2f2f2;
-}
-  
 .container {
     background-color: #ffffff;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    color: #2E2E2E;
     border-radius: 10px;
     padding: 70px;
     margin: 45px;
+    display: flex;
+    gap: 20px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: left;
+}
+  
+.block1 {
+    flex-grow: 1;
+}
+  
+.block1 h2 {
+    margin-bottom: 10px;
+}
+  
+.columns {
+    display: flex;
+    gap: 20px;
+}
+  
+.column {
+    flex-grow: 1;
+}
+  
+.block {
+    padding: 10px;
+}
+  
+.block h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+}
+
+.block p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+  
+.block2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.block2 img {
+    max-width: 100%;
+    width: 250px;
+    height: 250px;
 }
