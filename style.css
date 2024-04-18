@@ -83,10 +83,13 @@ input[type="submit"] {
     background-color: #FF9383;
 }
 
+
+
 .container {
     background-color: #ffffff;
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
+    font-style: normal;
     color: #2E2E2E;
     border-radius: 10px;
     padding: 70px;
@@ -147,4 +150,40 @@ input[type="submit"] {
     max-width: 100%;
     width: 250px;
     height: 250px;
+}
+
+@media (max-width: 991px) {
+    .container {
+        align-items: center;
+        padding: 15px;
+        margin: 0;
+    }
+      
+    .block2 {
+        margin-right: 10px;
+        align-self: flex-start;
+        order: 1;
+    }
+  
+    .title {
+        font-size: 24px;
+        line-height: 31.2px; 
+        order: 2;
+    }
+  
+    .block2 img {
+      margin-top: 20px;
+      width: 31px;
+      height: 31px;
+    }
+
+    .block h3 {
+        font-size: 16px;
+        line-height: 20.8px;
+    }
+    
+    .block p {
+        font-size: 12px;
+        line-height: 18px;
+    }
 }
