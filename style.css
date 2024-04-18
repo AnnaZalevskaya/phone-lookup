@@ -83,11 +83,15 @@ input[type="submit"] {
     background-color: #FF9383;
 }
 
-
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito/Nunito-Light.ttf') format('truetype'),
+}
+  
 
 .container {
     background-color: #ffffff;
-    font-family: "Nunito", sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     color: #2E2E2E;
